@@ -17,7 +17,7 @@ typing-extensions = "^4.8.0"
 
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.9.1"
+black = ">=23.9.1,<25.0.0"
 pre-commit = "^3.4.0"
 ruff = "^0.1.0"
 poethepoet = "^0.24.1"
