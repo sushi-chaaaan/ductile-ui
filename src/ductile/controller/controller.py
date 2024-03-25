@@ -108,12 +108,10 @@ class ViewController:
                 yield k, v
 
     @overload
-    def _process_view_for_discord(self, mode: Literal["attachment"]) -> "ViewObjectDictWithAttachment":
-        ...
+    def _process_view_for_discord(self, mode: Literal["attachment"]) -> "ViewObjectDictWithAttachment": ...
 
     @overload
-    def _process_view_for_discord(self, mode: Literal["files"]) -> "ViewObjectDictWithFiles":
-        ...
+    def _process_view_for_discord(self, mode: Literal["files"]) -> "ViewObjectDictWithFiles": ...
 
     def _process_view_for_discord(
         self,
